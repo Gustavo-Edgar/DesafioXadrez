@@ -15,4 +15,14 @@ int main(){
     for(int Rainha = 0; Rainha < 8; Rainha++){
         printf("Esquerda\n");
     }
+    printf("\nMovimento do Cavalo:\n");
+    for(int Cavalo1 = 0; Cavalo1<1;Cavalo1++){
+        int Cavalo2 = 0 ;
+        while(Cavalo2<2){
+            printf("Baixo\n");
+            Cavalo2++;
+        }
+        printf("Esquerda\n");
+    }
+            
 }
